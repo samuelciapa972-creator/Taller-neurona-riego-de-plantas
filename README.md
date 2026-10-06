@@ -115,13 +115,4 @@ Los pesos no cambian porque el umbral se usa después de entrenar, solo para con
 
 **10. ¿Qué limitaciones tiene para representar el riego de una planta real?** Usa solo dos variables y deja por fuera cosas como el tipo de planta, el suelo, la lluvia, el viento o la hora del día. Solo tiene 10 datos y no los separé en entrenamiento y prueba, así que no sé qué tan bien generaliza. La frontera de decisión es lineal. La escala fija de 100 y 50 deja de servir si la temperatura pasa de 50. Y la salida solo dice si regar o no, no cuánta agua poner.
 
-## Archivos
 
-```
-main.py              # neurona, entrenamiento, pruebas, experimentos y umbrales
-pyproject.toml       # configuración del proyecto con uv
-uv.lock              # versiones fijadas de las dependencias
-README.md
-```
-
-La carpeta `.venv` no se sube al repositorio.
