@@ -11,10 +11,10 @@ La neurona recibe dos entradas (humedad en % y temperatura en °C), las combina 
 Necesita [uv](https://docs.astral.sh/uv/) y Python 3.12 o superior.
 
 ```bash
-git clone <url-del-repositorio>
-cd neurona-riego-plantas
+git clone https://github.com/samuelciapa972-creator/Taller-neurona-riego-de-plantas
+cd Taller-neurona-riego-de-plantas
 uv sync
-uv run main.py
+uv run src/neurona_riego_planta/main.py
 ```
 
 Una sola ejecución imprime todo: el entrenamiento base, las cinco predicciones nuevas, los ocho experimentos y la prueba con umbrales. La semilla de los pesos iniciales es fija (`default_rng(7)`), así que a cualquiera le debe dar lo mismo que a mí.
