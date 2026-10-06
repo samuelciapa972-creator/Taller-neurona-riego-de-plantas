@@ -1,0 +1,19 @@
+[project]
+name = "neurona-riego-planta"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "samuelciapa972-creator", email = "samuelciapa972@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.3",
+]
+
+[project.scripts]
+neurona-riego-planta = "neurona_riego_planta:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
